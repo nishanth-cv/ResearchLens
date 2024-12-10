@@ -4,6 +4,29 @@
 1. Nishanth Chockalingam Veerapandian
 2. Sai Nithish Mahadeva Rao
 
+
+## Setup and Installation
+
+### Required Packages
+To run this code, you'll need to install the following Python packages:
+
+```bash
+pip install torch torch-geometric
+pip install ogb  # For ogbn-arxiv dataset
+pip install networkx  # For graph analysis
+pip install scikit-learn  # For t-SNE and preprocessing
+pip install pandas numpy  # For data manipulation
+pip install matplotlib seaborn  # For visualization
+pip install tqdm  # For progress bars
+```
+
+### Running the Code
+1. Install all required packages listed above
+2. Execute the code sections in order, starting with model definition and training
+3. The analysis will generate visualizations and metrics for both Cora and ogbn-arxiv datasets
+
+
+
 ## Abstract
 This project implements and analyzes an enhanced Graph Convolutional Network (GCN) for citation network analysis. The system is designed to perform node classification and influence analysis on academic citation networks, specifically tested on the Cora and ogbn-arxiv datasets. The implementation includes advanced features such as batch normalization, multiple hidden layers, and comprehensive influence analysis tools. The project demonstrates significant improvements in node classification accuracy and provides novel insights into citation network dynamics through various centrality measures.
 
